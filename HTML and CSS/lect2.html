@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> hej och välkommen </title>
+    <style>
+    button {
+       width: 50px;
+       height: 20px;
+       font-size: 11px;
+       background-color: white;
+     }
+     button:hover{
+        background-color: white;
+      }
+      a::before {
+        content: "\21d2 Click here: ";
+        font-weight: bold;
+      }
+      p::selection {
+        color: red;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <h1> Welcome to my Web Page! </h1>
+    <form>
+      <h2>  Login: </h2>
+      <div>
+        <input name="name" type="text" placeholder="Name">
+        <input name="password" type="password" placeholder="Password">
+        <button>Login</button>
+      <h2>  Create your account! </h2>
+      <div>
+          <input name="name" type="text" placeholder="Name">
+          <input name="password" type="password" placeholder="Password">
+          <input name="email" type="email" placeholder="Email">
+          <input name="date" type="date" placeholder="Date">
+      </div>
+      <div>
+        <input name="country" list="countries" placeholder="Country">
+        <datalist id="countries">
+            <option value = "Afghanistan">
+            <option value = "Albania">
+            <option value = "Algeria">
+      </div>
+    </form>
+    <p>
+      Hello, my name is Patrick and i'm from Sweden.
+    </p>
+    <a href="hello.html">Members</a>
+    <a href="https://google.com">Google</a>
+</html>
